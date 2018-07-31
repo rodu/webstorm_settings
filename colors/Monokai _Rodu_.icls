@@ -3,7 +3,7 @@
     <property name="created">2018-07-24T12:20:41</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2018-07-24T14:03:51</property>
+    <property name="modified">2018-07-31T10:32:23</property>
     <property name="originalScheme">_@user_Monokai</property>
   </metaInfo>
   <colors>
@@ -839,7 +839,12 @@
     </option>
     <option name="JS.CLASS">
       <value>
-        <option name="FOREGROUND" value="fdf3dd" />
+        <option name="FOREGROUND" value="5af41e" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="a6e22e" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
@@ -854,17 +859,17 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="fdf3dd" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="JS.INTERFACE">
       <value>
-        <option name="FOREGROUND" value="fdf3dd" />
+        <option name="FOREGROUND" value="71abfd" />
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="fdf3dd" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="JS.PARAMETER">
@@ -879,7 +884,7 @@
     </option>
     <option name="JS.TYPE_ALIAS">
       <value>
-        <option name="FOREGROUND" value="fdf3dd" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="LABEL">
