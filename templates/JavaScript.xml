@@ -17,9 +17,9 @@
     </context>
   </template>
   <template name="fun" value="function($param$) {&#10;  $body$&#10;}$semi$" description="Function Inline" toReformat="false" toShortenFQNames="true">
-    <variable name="param" expression="" defaultValue="param" alwaysStopAt="true" />
-    <variable name="semi" expression="" defaultValue=";" alwaysStopAt="true" />
-    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="param" expression="&quot;params&quot;" defaultValue="param" alwaysStopAt="true" />
+    <variable name="semi" expression="&quot;;&quot;" defaultValue=";" alwaysStopAt="true" />
+    <variable name="body" expression="&quot;// body&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
