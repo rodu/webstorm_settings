@@ -3,7 +3,7 @@
     <property name="created">2018-07-24T12:20:41</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2018-07-31T10:32:23</property>
+    <property name="modified">2018-07-29T10:42:10</property>
     <property name="originalScheme">_@user_Monokai</property>
   </metaInfo>
   <colors>
@@ -839,12 +839,7 @@
     </option>
     <option name="JS.CLASS">
       <value>
-        <option name="FOREGROUND" value="5af41e" />
-      </value>
-    </option>
-    <option name="JS.GLOBAL_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="a6e22e" />
+        <option name="FOREGROUND" value="fdf3dd" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
@@ -859,17 +854,17 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="fdf3dd" />
       </value>
     </option>
     <option name="JS.INTERFACE">
       <value>
-        <option name="FOREGROUND" value="71abfd" />
+        <option name="FOREGROUND" value="fdf3dd" />
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="fdf3dd" />
       </value>
     </option>
     <option name="JS.PARAMETER">
@@ -884,7 +879,7 @@
     </option>
     <option name="JS.TYPE_ALIAS">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="fdf3dd" />
       </value>
     </option>
     <option name="LABEL">
@@ -1530,6 +1525,14 @@
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="623062" />
+      </value>
+    </option>
+    <option name="WRONG_REFERENCES_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="bc3f3c" />
+        <option name="EFFECT_COLOR" value="b88b1d" />
+        <option name="ERROR_STRIPE_COLOR" value="403e41" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME">
