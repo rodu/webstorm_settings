@@ -4,9 +4,10 @@
     <option name="selectedTheme" value="MONOKAI" />
     <option name="highlightColor" value="80cbc4" />
     <option name="highlightColorEnabled" value="true" />
+    <option name="highlightThickness" value="4" />
     <option name="isContrastMode" value="true" />
-    <option name="accentColor" value="80cbc4" />
-    <option name="settingsSelectedTab" value="3" />
+    <option name="accentColor" value="E91E63" />
+    <option name="tabOpacity" value="51" />
     <option name="userId" value="5c16e7a8:164ccc3bab2:-8000" />
     <option name="overrideAccentColor" value="true" />
   </component>
