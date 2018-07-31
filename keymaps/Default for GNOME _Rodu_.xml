@@ -1,0 +1,97 @@
+<keymap version="1" name="Default for GNOME (Rodu)" parent="Default for GNOME">
+  <action id="ChangesView.GroupBy.Directory" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.Execute.Multiline" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="EditorChooseLookupItemCompleteStatement" />
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="EditorCompleteStatement" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageTop" />
+  <action id="EditorScrollToCenter" />
+  <action id="EditorSelectWord" />
+  <action id="EditorSplitLine" />
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
+  <action id="EditorUnSelectWord" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="InsertLiveTemplate" />
+  <action id="Macro.Comma at end of line">
+    <keyboard-shortcut first-keystroke="alt comma" />
+  </action>
+  <action id="Macro.Semicolon at end of line">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift ctrl 2" />
+  </action>
+  <action id="NextOccurence" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="PreviousOccurence" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
+  <action id="ScrollTreeToCenter" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="alt f3" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="SendEOF" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift alt 2" />
+  </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="shift alt w" />
+  </action>
+  <action id="ToggleBookmark2" />
+  <action id="Uml.ShowDiff" />
+  <action id="Vcs.Push" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="ViewSource" />
+  <action id="openAssertEqualsDiff" />
+  <action id="tasks.close" />
+</keymap>

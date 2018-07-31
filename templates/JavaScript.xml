@@ -1,0 +1,35 @@
+<templateSet group="JavaScript">
+  <template name="expc" value="export class $ClassName$ {&#10;  constructor() {&#10;    &#10;  }&#10;}&#10;" description="Export Class" toReformat="false" toShortenFQNames="true">
+    <variable name="ClassName" expression="" defaultValue="ClassName" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="thi" value="this.$name$ = $name$;" description="this shortcut" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="camelCase(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imj" value="import $ from 'jquery';" description="Import jQuery" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fun" value="function($param$) {&#10;  $body$&#10;}$semi$" description="Function Inline" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="" defaultValue="param" alwaysStopAt="true" />
+    <variable name="semi" expression="" defaultValue=";" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="angdir" value="/**&#10;* @ngdoc directive&#10;* @name $moduleName$.directive:$directiveName$&#10;* @description&#10;* Description of the $directiveName$ directive.&#10;*/&#10;angular.module('$moduleName$').directive('$directiveName$', [&#10;  function directiveName(){&#10;    'use strict';&#10;&#10;    var&#10;      scope = {};&#10;&#10;    function link ($scope, $element) {&#10;      $body$&#10;    }&#10;&#10;    return {&#10;      restrict: 'A',&#10;      scope: scope,&#10;      link: link&#10;    };&#10;  }&#10;]);&#10;" description="AngularJS Directive" toReformat="false" toShortenFQNames="true">
+    <variable name="moduleName" expression="moduleName" defaultValue="moduleName" alwaysStopAt="true" />
+    <variable name="directiveName" expression="" defaultValue="directiveName" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="// body" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
