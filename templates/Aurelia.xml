@@ -4,27 +4,27 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="acti" value="activate(model) {&#10;    &#10;}" description="Activate Method" toReformat="false" toShortenFQNames="true">
+  <template name="acti" value="activate(model) {&#10;  $END$&#10;}" description="Activate Method" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="att" value="attached() {&#10;    &#10;}" description="Attached Method" toReformat="false" toShortenFQNames="true">
+  <template name="att" value="attached() {&#10;  $END$&#10;}" description="Attached Method" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="bin" value="bind() {&#10;    &#10;}" description="Bind Method" toReformat="false" toShortenFQNames="true">
+  <template name="bin" value="bind() {&#10;  $END$&#10;}" description="Bind Method" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="unb" value="unbind() {&#10;    &#10;}" description="Unbind Method" toReformat="false" toShortenFQNames="true">
+  <template name="unb" value="unbind() {&#10;  $END$&#10;}" description="Unbind Method" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="det" value="detached() {&#10;    &#10;}" description="Detach Method" toReformat="false" toShortenFQNames="true">
+  <template name="det" value="detached() {&#10;  $END$&#10;}" description="Detach Method" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

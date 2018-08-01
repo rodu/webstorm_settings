@@ -14,7 +14,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cons" value="constructor() {&#10;    $END$&#10;}" description="Constructor (Rodu)" toReformat="true" toShortenFQNames="true">
+  <template name="con" value="constructor() {&#10;    $END$&#10;}" description="Constructor (Rodu)" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ES6_CLASS" value="true" />
       <option name="JS_CLASS" value="true" />
