@@ -6,7 +6,7 @@
     </context>
   </template>
   <template name="thi" value="this.$name$ = $name$;" description="this shortcut" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="camelCase(String)" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
