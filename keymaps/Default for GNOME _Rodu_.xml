@@ -65,11 +65,15 @@
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceParameter" />
   <action id="Macro.Comma at end of line">
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
   <action id="Macro.Semicolon at end of line">
     <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
