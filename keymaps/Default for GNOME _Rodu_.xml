@@ -65,6 +65,7 @@
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceField" />
   <action id="IntroduceParameter" />
   <action id="Macro.Comma at end of line">
     <keyboard-shortcut first-keystroke="alt comma" />
@@ -86,6 +87,9 @@
   <action id="PreviousOccurence" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
   <action id="ScrollTreeToCenter" />
   <action id="SelectAllOccurrences">
