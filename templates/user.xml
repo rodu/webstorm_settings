@@ -54,4 +54,10 @@
       <option name="TS_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="sudi" value="this.subscriptions.map(&#10;  (subscription: Subscription) =&gt; subscription.dispose()&#10;);" description="Subscriptions Dispose (Rodu)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
