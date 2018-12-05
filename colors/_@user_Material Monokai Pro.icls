@@ -1,10 +1,10 @@
 <scheme name="_@user_Material Monokai Pro" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
+  <option name="FONT_SCALE" value="1.3333334" />
   <metaInfo>
     <property name="created">2018-07-31T20:44:00</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2018-08-18T07:07:19</property>
+    <property name="modified">2018-12-05T20:07:07</property>
     <property name="originalScheme">Material Monokai Pro</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -14,9 +14,11 @@
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
-    <option name="EDITOR_FONT_SIZE" value="18" />
+    <option name="EDITOR_FONT_SIZE" value="24" />
   </font>
   <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
+  <option name="CONSOLE_FONT_SIZE" value="24" />
+  <option name="CONSOLE_LINE_SPACING" value="1.4" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="aedc70" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
