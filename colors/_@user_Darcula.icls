@@ -1,15 +1,11 @@
 <scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2018-07-31T20:38:10</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2018-12-06T15:19:56</property>
+    <property name="modified">2018-12-06T19:46:35</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.5" />
-  <option name="EDITOR_FONT_SIZE" value="16" />
-  <option name="EDITOR_FONT_NAME" value="Liberation Mono" />
   <colors>
     <option name="FILESTATUS_ADDED" value="aedc70" />
     <option name="FILESTATUS_COPIED" value="aedc70" />
