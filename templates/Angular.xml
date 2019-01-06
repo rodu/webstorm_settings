@@ -1,12 +1,15 @@
 <templateSet group="Angular">
   <template name="a-formControlName" value="formControlName=&quot;$control$&quot;" description="Angular formControlName" toReformat="true" toShortenFQNames="true">
     <variable name="control" expression="" defaultValue="&quot;control&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="a-formGroup" value="[formGroup]=&quot;$form$&quot;" description="Angular formGroup" toReformat="true" toShortenFQNames="true">
     <variable name="form" expression="" defaultValue="&quot;form&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="a-formGroupName" value="[formGroupName]=&quot;$name$&quot;" description="Angular formGroupName" toReformat="true" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="a-routerLink" value="[routerLink]=&quot;['/$routePath$']&quot; routerLinkActive=&quot;$router_link-active$&quot; $END$" description="Angular routerLink" toReformat="true" toShortenFQNames="true">
     <variable name="routePath" expression="" defaultValue="&quot;routePath&quot;" alwaysStopAt="true" />
@@ -31,6 +34,7 @@
   </template>
   <template name="a-preload-strategy" value="import { PreloadingStrategy, Route } from '@angular/router';&#10;import { Observable, of } from 'rxjs';&#10;&#10;export class PreloadSelectedModulesList implements PreloadingStrategy {&#10; preload(route: Route, load: Function): Observable&lt;any&gt; {&#10;  return route.data &amp;&amp; route.data['$preload$'] ? load() : of(null);&#10; }&#10;}&#10;$END$" description="Angular custom preload strategy" toReformat="true" toShortenFQNames="true">
     <variable name="preload" expression="" defaultValue="&quot;preload&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="a-service-httpclient" value="import { Injectable } from '@angular/core';&#10;import { HttpClient } from '@angular/common/http';&#10;import { catchError } from 'rxjs/operators';&#10;&#10;@Injectable()&#10;export class $ServiceName$Service {&#10; constructor(private httpClient: HttpClient) { }&#10; $END$&#10;}" description="Angular service with HttpClient" toReformat="true" toShortenFQNames="true">
     <variable name="ServiceName" expression="" defaultValue="&quot;ServiceName&quot;" alwaysStopAt="true" />
@@ -50,12 +54,17 @@
     <variable name="Component" expression="" defaultValue="&quot;Component&quot;" alwaysStopAt="true" />
     <variable name="childpath" expression="" defaultValue="&quot;childpath&quot;" alwaysStopAt="true" />
     <variable name="ChildComponent" expression="" defaultValue="&quot;ChildComponent&quot;" alwaysStopAt="true" />
+    <context />
   </template>
-  <template name="a-route-params-subscribe" value="this.route.params&#10; .pipe(map(params =&gt; params['id']), tap(id =&gt; (this.id = +id)))&#10; .subscribe(id =&gt; ${1:function()}());&#10;$END$" description="Angular - subscribe to routing parameters" toReformat="true" toShortenFQNames="true" />
+  <template name="a-route-params-subscribe" value="this.route.params&#10; .pipe(map(params =&gt; params['id']), tap(id =&gt; (this.id = +id)))&#10; .subscribe(id =&gt; ${1:function()}());&#10;$END$" description="Angular - subscribe to routing parameters" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
   <template name="a-rxjs-import" value="import { $Observable$ } from 'rxjs';&#10;$END$" description="RxJs import" toReformat="true" toShortenFQNames="true">
     <variable name="Observable" expression="" defaultValue="&quot;Observable&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="a-rxjs-operator-import" value="import { $map$ } from 'rxjs/operators';&#10;$END$" description="RxJs import" toReformat="true" toShortenFQNames="true">
     <variable name="map" expression="" defaultValue="&quot;map&quot;" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
