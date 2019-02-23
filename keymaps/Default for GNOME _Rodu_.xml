@@ -66,6 +66,11 @@
   <action id="GotoNextElementUnderCaretUsage">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift ctrl alt n" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="Images.Editor.ToggleGrid" />
   <action id="IncrementWindowHeight" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceField" />
@@ -85,8 +90,12 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
-  <action id="MoveStatementDown" />
-  <action id="MoveStatementUp" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift ctrl alt down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift ctrl alt up" />
+  </action>
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
   </action>
@@ -124,6 +133,8 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="VcsShowNextChangeMarker" />
+  <action id="VcsShowPrevChangeMarker" />
   <action id="ViewSource" />
   <action id="openAssertEqualsDiff" />
   <action id="tasks.close" />
