@@ -4,5 +4,10 @@
       <action id="EditorLineEnd" />
       <typing text-keycode="59:0">;</typing>
     </macro>
+    <macro name="eol-comma">
+      <action id="EditorLineEnd" />
+      <typing text-keycode="44:0">,</typing>
+      <action id="EditorEnter" />
+    </macro>
   </component>
 </application>
