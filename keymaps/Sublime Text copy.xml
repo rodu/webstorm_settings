@@ -1,4 +1,4 @@
-<keymap version="1" name="Sublime Text copy" parent="Sublime Text">
+<keymap version="1" name="Sublime Text copy">
   <action id="Macro.eol-comma">
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
