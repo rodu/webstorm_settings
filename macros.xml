@@ -1,13 +1,13 @@
 <application>
   <component name="ActionMacroManager">
-    <macro name="Comma at end of line">
+    <macro name="eol-semicolon">
+      <action id="EditorLineEnd" />
+      <typing text-keycode="59:0">;</typing>
+    </macro>
+    <macro name="eol-comma">
       <action id="EditorLineEnd" />
       <typing text-keycode="44:0">,</typing>
       <action id="EditorEnter" />
-    </macro>
-    <macro name="Semicolon at end of line">
-      <action id="EditorLineEnd" />
-      <typing text-keycode="59:0">;</typing>
     </macro>
   </component>
 </application>

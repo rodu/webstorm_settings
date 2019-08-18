@@ -1,0 +1,8 @@
+<keymap version="1" name="Sublime Text copy" parent="Sublime Text">
+  <action id="Macro.eol-comma">
+    <keyboard-shortcut first-keystroke="alt comma" />
+  </action>
+  <action id="Macro.eol-semicolon">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
+</keymap>
