@@ -5,4 +5,7 @@
   <action id="JumpToColorsAndFonts">
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
+  </action>
 </keymap>
