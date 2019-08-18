@@ -1,0 +1,5 @@
+<keymap version="1" name="Sublime Text copy 1" parent="Sublime Text">
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+</keymap>
