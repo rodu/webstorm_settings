@@ -1,8 +1,15 @@
 <keymap version="1" name="Sublime Text copy" parent="Sublime Text">
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
   <action id="Macro.eol-comma">
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
   <action id="Macro.eol-semicolon">
     <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl 2" />
+  </action>
+  <action id="ToggleBookmark2" />
 </keymap>
