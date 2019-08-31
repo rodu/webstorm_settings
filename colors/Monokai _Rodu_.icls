@@ -3,7 +3,7 @@
     <property name="created">2018-07-24T12:20:41</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2019-08-31T09:18:05</property>
+    <property name="modified">2019-08-31T10:38:21</property>
     <property name="originalScheme">_@user_Monokai</property>
   </metaInfo>
   <colors>
@@ -1512,8 +1512,11 @@
         <option name="FOREGROUND" value="c7affd" />
       </value>
     </option>
-    <option name="TS.PARENTHS">
-      <value />
+    <option name="TS.MODULE_NAME">
+      <value>
+        <option name="FOREGROUND" value="f8f8f2" />
+        <option name="BACKGROUND" value="272822" />
+      </value>
     </option>
     <option name="TS.STATIC_MEMBER_VARIABLE">
       <value>
