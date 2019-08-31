@@ -3,7 +3,7 @@
     <property name="created">2018-07-24T12:20:41</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2019-08-30T20:31:42</property>
+    <property name="modified">2019-08-31T09:18:05</property>
     <property name="originalScheme">_@user_Monokai</property>
   </metaInfo>
   <colors>
@@ -1375,7 +1375,7 @@
     </option>
     <option name="SASS_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="fd971f" />
+        <option name="FOREGROUND" value="b5b82a" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
