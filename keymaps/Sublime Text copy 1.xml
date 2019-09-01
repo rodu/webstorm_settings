@@ -1,0 +1,11 @@
+<keymap version="1" name="Sublime Text copy 1" parent="Sublime Text">
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="JumpToColorsAndFonts">
+    <keyboard-shortcut first-keystroke="shift ctrl comma" />
+  </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
+  </action>
+</keymap>
