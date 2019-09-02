@@ -1,0 +1,8 @@
+<application>
+  <component name="UISettings">
+    <option name="ALLOW_MERGE_BUTTONS" value="false" />
+    <option name="ANIMATE_WINDOWS" value="false" />
+    <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
+    <option name="OPEN_TABS_AT_THE_END" value="true" />
+  </component>
+</application>
