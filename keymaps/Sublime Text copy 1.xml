@@ -2,10 +2,29 @@
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
   <action id="JumpToColorsAndFonts">
     <keyboard-shortcut first-keystroke="shift ctrl alt comma" />
   </action>
+  <action id="Macro.eol-comma">
+    <keyboard-shortcut first-keystroke="alt comma" />
+  </action>
+  <action id="Macro.eol-semicolon">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift alt 2" />
+  </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
+  </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="shift alt 1" />
   </action>
 </keymap>
