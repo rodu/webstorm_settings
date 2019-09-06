@@ -1,11 +1,15 @@
 <scheme name="Monokai (Rodu)" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2018-07-24T12:20:41</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2019-09-02T13:20:44</property>
+    <property name="modified">2019-09-06T09:56:15</property>
     <property name="originalScheme">_@user_Monokai</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.5" />
+  <option name="EDITOR_FONT_SIZE" value="16" />
+  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="CARET_COLOR" value="f8f8f0" />
     <option name="CARET_ROW_COLOR" value="3e3d32" />
@@ -112,7 +116,7 @@
         <option name="FOREGROUND" value="a6e22e" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes="JS.GLOBAL_VARIABLE" />
+    <option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes="" />
     <option name="COFFEESCRIPT.HEREDOC_CONTENT">
       <value>
         <option name="FOREGROUND" value="e6db74" />
@@ -683,15 +687,15 @@
         <option name="FOREGROUND" value="75715e" />
       </value>
     </option>
-    <option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL" />
-    <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_FILTER" baseAttributes="" />
+    <option name="HAML_FILTER_CONTENT" baseAttributes="" />
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
-    <option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HAML_RUBY_CODE" baseAttributes="" />
+    <option name="HAML_RUBY_START" baseAttributes="" />
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="e6db74" />
@@ -702,14 +706,14 @@
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
-    <option name="HAML_TAG" baseAttributes="TEXT" />
+    <option name="HAML_TAG" baseAttributes="" />
     <option name="HAML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
-    <option name="HAML_TEXT" baseAttributes="TEXT" />
-    <option name="HAML_XHTML" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_TEXT" baseAttributes="" />
+    <option name="HAML_XHTML" baseAttributes="" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
