@@ -6,11 +6,11 @@
     <option name="tabOpacity" value="19" />
     <option name="tabFontSize" value="14" />
     <option name="highlightThickness" value="4" />
-    <option name="accentColor" value="009688" />
+    <option name="accentColor" value="ffd866" />
     <option name="highlightColor" value="80cbc4" />
     <option name="selectedTheme" value="CUSTOM" />
     <option name="userId" value="5c16e7a8:164ccc3bab2:-8000" />
-    <option name="version" value="4.9.2.1" />
+    <option name="version" value="4.11.0" />
     <option name="tabHighlightPosition" value="Top" />
   </component>
 </application>
