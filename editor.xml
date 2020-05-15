@@ -5,8 +5,8 @@
     <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="14" />
-    <option name="FONT_FAMILY" value="Liberation Mono" />
+    <option name="FONT_SIZE" value="16" />
+    <option name="FONT_FAMILY" value="Fira Code" />
     <option name="LINE_SPACING" value="1.5" />
   </component>
   <component name="EditorSettings">
