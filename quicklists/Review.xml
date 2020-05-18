@@ -1,0 +1,4 @@
+<list display="Review" description="Pushes Changes to Gerrit">
+  <action id="Gerrit.Publish" />
+  <action id="Gerrit.Submit" />
+</list>

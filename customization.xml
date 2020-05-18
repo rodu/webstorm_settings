@@ -1,0 +1,19 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group seperator="true" action_type="1" position="7">
+      <path value="root" />
+      <path value="VCS Local Changes Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Gerrit.Publish" is_action="true" action_type="1" position="8">
+      <path value="root" />
+      <path value="VCS Local Changes Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Gerrit.Submit" is_action="true" action_type="1" position="9">
+      <path value="root" />
+      <path value="VCS Local Changes Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+  </component>
+</application>
