@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="Review" description="Runs git review -y" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/git" />
+      <option name="PARAMETERS" value="review -y" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/dev/kaeg-authoring-tool" />
+    </exec>
+  </tool>
+  <tool name="Draft Review" description="Push a draft change to gerrit" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/git" />
+      <option name="PARAMETERS" value="review -yD" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/dev/kaeg-authoring-tool" />
+    </exec>
+  </tool>
+</toolSet>
