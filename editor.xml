@@ -1,5 +1,6 @@
 <application>
   <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="1" />
     <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
     <option name="PARAMETER_INFO_DELAY" value="500" />
     <option name="COMPLETION_CASE_SENSITIVE" value="1" />
@@ -39,6 +40,13 @@
     <option name="IS_ALL_SOFTWRAPS_SHOWN" value="true" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
     <option name="KEEP_TRAILING_SPACE_ON_CARET_LINE" value="false" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="disabledHintProviderIds">
+      <set>
+        <option value="TypeScript.ts.chain.hints" />
+      </set>
+    </option>
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
